@@ -32,4 +32,14 @@
 - _p20_ConversionTipos
 
 ## Actividad 4
+- _p21_VerificarNumero
+- _p22_VerificarSuma
+- _p23_ConvertirTemperatura
+- _p24_PagaTrabajador
+- _p25_EstacionesAño
+
+## Actividad 5 
+- _p26_TipoAngulo
+- _p27_AceptarEstudiante
+- _p28_LeyDeNewton
 
