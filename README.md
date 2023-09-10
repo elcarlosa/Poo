@@ -56,3 +56,9 @@
 - _36_CompraPizza
 - _37_CalculoNotas
 - _38_AceptarEstudiante
+
+## Actividad 8
+- _p44_ParesAscendente
+- _p45_ImparesDescendente
+- _p46_TablaConversion
+- _p47_ConjeturaCollatz
