@@ -62,3 +62,9 @@
 - _p45_ImparesDescendente
 - _p46_TablaConversion
 - _p47_ConjeturaCollatz
+
+## Actividad 9
+- _p48_ImparesAscendentes
+- _p49_ParesDescendentes
+- _p50_ConversionTemperatura
+- _p51_SerieFibonacci
