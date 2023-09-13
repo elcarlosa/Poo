@@ -68,3 +68,10 @@
 - _p49_ParesDescendentes
 - _p50_ConversionTemperatura
 - _p51_SerieFibonacci
+
+## Actividad 10
+- _p52_Numeros1aN
+- _p53_NumerosNa1
+- _p54_ArribaAbajo
+- _p55_SumaParesImpares
+- _p56_SumaPromedio
