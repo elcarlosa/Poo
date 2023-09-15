@@ -75,3 +75,9 @@
 - _p54_ArribaAbajo
 - _p55_SumaParesImpares
 - _p56_SumaPromedio
+
+## Actividad 10
+- _p57_TablaMultiplicar
+- _p58_Piramide
+- _p59_FactorialNumeros
+- _p60_SumaTerminos
