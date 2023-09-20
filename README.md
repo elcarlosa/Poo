@@ -76,6 +76,12 @@
 - _p55_SumaParesImpares
 - _p56_SumaPromedio
 
+## Practica 4
+- _p61_SecuenciaNumeros1
+- _p62_SecuenciaNumeros2
+- _p63_SumaTerminos1
+- _p64_SumaTerminos2
+
 ## Actividad 10
 - _p57_TablaMultiplicar
 - _p58_Piramide
