@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _p65_PromedioNUmeros {
+public class _p65_PromedioNumeros {
         public static float promedio(float n1, float n2, float n3){
             float suma;
             suma = n1 + n2 + n3;
@@ -20,4 +20,4 @@ public class _p65_PromedioNUmeros {
             System.out.printf("\nEl promedio es %.2f", prom);
         }
     }
-}
+
