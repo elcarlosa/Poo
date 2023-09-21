@@ -57,19 +57,19 @@
 - _37_CalculoNotas
 - _38_AceptarEstudiante
 
-## Actividad 8
+## Actividad 7
 - _p44_ParesAscendente
 - _p45_ImparesDescendente
 - _p46_TablaConversion
 - _p47_ConjeturaCollatz
 
-## Actividad 9
+## Actividad 8
 - _p48_ImparesAscendentes
 - _p49_ParesDescendentes
 - _p50_ConversionTemperatura
 - _p51_SerieFibonacci
 
-## Actividad 10
+## Actividad 9
 - _p52_Numeros1aN
 - _p53_NumerosNa1
 - _p54_ArribaAbajo
@@ -87,3 +87,10 @@
 - _p58_Piramide
 - _p59_FactorialNumeros
 - _p60_SumaTerminos
+
+## Actividad 11
+- _p65_PromedioNumeros
+- _p66_ConversionTemperaturas
+- _p67_SumaRangos
+- _p68_TablasMultiplicar
+- _p69_CalificacionLetra

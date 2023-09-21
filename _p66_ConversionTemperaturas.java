@@ -1,3 +1,4 @@
+//Carlos Alfredo
 import java.util.Scanner;
 
 public class _p66_ConversionTemperaturas {

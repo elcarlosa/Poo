@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//Carlos Alfredo
 public class _p65_PromedioNumeros {
         public static float promedio(float n1, float n2, float n3){
             float suma;
