@@ -1,33 +1,31 @@
 package _p102_AutorLibro;
 
-public class app {
+public class App {
     public static void main(String[] args) {
-        Cliente c1 = new Cliente(88, "Tan Ah Teck", 10);
-        System.out.println(c1);
-        c1.setDescuento(8);
-        System.out.println(c1);
-        System.out.println("Id es : " + c1.getId());
-        System.out.println("Nombre es : " + c1.getNombre());
-        System.out.println("Descuento es : " +
-        c1.getDescuento());
+        Autor a1 = new Autor("Tan Ah Teck",
+        "ahteck@nowhere.com");
+        System.out.println(a1);
+        a1.setCorreo("ahteck@somewhere.com");
+        System.out.println(a1);
+        System.out.println("Nombre es: " + a1.getNombre());
+        System.out.println("Correo es: " + a1.getCorreo());
+        // Prueba Libro
+        Libro b1 = new Libro("12345", "Java for dummies", a1,
+        8.8, 88);
+        System.out.println(b1);
+        b1.setPrecio(9.9);
+        b1.setCant(99);
+        System.out.println(b1);
+        System.out.println("Isbn es: " + b1.getIsbn());
+        System.out.println("Nombre es: " + b1.getNombre());
+        System.out.println("Precio es: " + b1.getPrecio());
+        System.out.println("Cant es: " + b1.getCant());
+        System.out.println("Autor es: " + b1.getAutor());
+        System.out.println("Autor Nombre: " +
 
-        Factura inv1 = new Factura(101, c1, 888.8);
-        System.out.println(inv1);
-
-        inv1.setMonto(999.9);
-        System.out.println(inv1);
-        System.out.println("Id es : " + inv1.getId());
-        System.out.println("Cliente es : " +
-        inv1.getCliente());
-        System.out.println("Monto es : " + inv1.getMonto());
-        System.out.println("Cliente Id es : " +
-        inv1.getCliente().getId());
-        System.out.println("Cliente Nombre es : " +
-        inv1.getCliente().getNombre());
-        System.out.println("Cliente Descuento es : " +
-        inv1.getCliente().getDescuento() + "%");
-
-        System.out.printf("Monto despues de descuento es :%.2f%n", inv1.getMontoDespuesDeDescuento());
+    
+        b1.getAutor().getNombre());
+        System.out.println("Autor Correo: " +
+        b1.getAutor().getCorreo());
     }
 }
-
