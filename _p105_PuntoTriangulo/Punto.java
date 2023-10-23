@@ -1,4 +1,4 @@
-package _p104_PuntoCirculo;
+package _p105_PuntoTriangulo;
 
 class Punto {
     private int x;

@@ -1,28 +1,40 @@
 package _p104_PuntoCirculo;
 
-public class Circulo {
-    private Punto Centro;
-    private Double Radio;
-    private Double Area;
-    public Circulo() {
+class Circulo {
+    private Punto centro;
+    private double radio;
+
+    public Circulo(Punto centro, double radio) {
+        this.centro = centro;
+        this.radio = radio;
     }
-    public Circulo(Double radio) {
-        Radio = radio;
-    }
+
     public Punto getCentro() {
-        return Centro;
+        return centro;
     }
+
     public void setCentro(Punto centro) {
-        Centro = centro;
+        this.centro = centro;
     }
-    public Double getRadio() {
-        return Radio;
+
+    public double getRadio() {
+        return radio;
     }
-    public void setRadio(Double radio) {
-        Radio = radio;
+
+    public void setRadio(double radio) {
+        this.radio = radio;
     }
-    public Double getArea(){
-        return Area;
+
+    public double getArea() {
+        return Math.PI * radio * radio;
     }
-    
+
+    public double getCircunferencia() {
+        return 2 * Math.PI * radio;
+    }
+
+    @Override
+    public String toString() {
+        return "Circulo [Centro=" + centro + ", Radio=" + radio + "]";
+    }
 }
