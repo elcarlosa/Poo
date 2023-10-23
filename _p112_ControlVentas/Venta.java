@@ -3,7 +3,6 @@ package _p112_ControlVentas;
 import java.util.ArrayList;
 import java.util.List;
 
-// Clase abstracta Venta
 abstract class Venta {
     protected Articulo articulo;
     protected Cantidad cantidad;
