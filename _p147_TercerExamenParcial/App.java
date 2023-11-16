@@ -6,6 +6,7 @@ import javax.swing.table.*;
 import javax.swing.text.html.HTML;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.awt.Frame;
 
 public class App extends JFrame implements ActionListener {
     ArrayList<Jugador> Datos;
