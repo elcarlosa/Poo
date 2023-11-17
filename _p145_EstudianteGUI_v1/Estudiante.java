@@ -2,11 +2,12 @@ package _p145_EstudianteGUI_v1;
 
 import java.io.Serializable;
 
-public class Estudiante implements Serializable{
+public class Estudiante implements Serializable {
     String Nombre;
     int Edad;
     double Peso;
     String Correo;
+    public Estudiante() {}
     public Estudiante(String nombre, int edad, double peso, String correo) {
         Nombre = nombre;
         Edad = edad;
@@ -32,9 +33,9 @@ public class Estudiante implements Serializable{
         Peso = peso;
     }
     public String getCorreo() {
-        return Correo;
-    }
-    public void setCorreo(String correo) {
-        Correo = correo;
-    }
-}
+                return Correo;
+            }
+            public void setCorreo(String correo) {
+                Correo = correo;
+            }
+        }
